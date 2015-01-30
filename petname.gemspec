@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Petname::VERSION
   spec.authors       = ["polamjag"]
   spec.email         = ["s@polamjag.info"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Generates random words consisting of a random combination of an adverb, adjective, and proper name}
+  spec.description   = %q{Generates random words consisting of a random combination of an adverb, adjective, and proper name. Ported from https://github.com/dustinkirkland/petname}
+  spec.homepage      = "https://github.com/polamjag/petname-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -1,5 +1,5 @@
 require "petname/version"
+require "petname/generator"
 
 module Petname
-  # Your code goes here...
 end
