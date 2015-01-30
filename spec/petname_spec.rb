@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe Petname do
+describe PetName do
   it 'has a version number' do
-    expect(Petname::VERSION).not_to be nil
+    expect(PetName::VERSION).not_to be nil
   end
 
-  describe Petname::Generator do
-    let(:pn) { Petname::Generator.new }
+  describe PetName::Generator do
+    let(:pn) { PetName::Generator.new }
 
     it "should generate random Petname without arguments" do
       expect( pn.generate ).to match /[a-z]*-[a-z]*/

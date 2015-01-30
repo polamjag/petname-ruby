@@ -1,6 +1,6 @@
 require "petname/version"
 
-module Petname
+module PetName
   class Generator
     def initialize(options={})
       opt = {
