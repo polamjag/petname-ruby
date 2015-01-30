@@ -1,6 +1,7 @@
 # PetName
 
 [![Build Status](https://travis-ci.org/polamjag/petname-ruby.svg?branch=master)](https://travis-ci.org/polamjag/petname-ruby)
+[![Gem Version](https://badge.fury.io/rb/petname.svg)](http://badge.fury.io/rb/petname)
 
 ## Installation
 
