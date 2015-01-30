@@ -5,7 +5,7 @@ require 'petname/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "petname"
-  spec.version       = Petname::VERSION
+  spec.version       = PetName::VERSION
   spec.authors       = ["polamjag"]
   spec.email         = ["s@polamjag.info"]
   spec.summary       = %q{Generates random words consisting of a random combination of an adverb, adjective, and proper name}
