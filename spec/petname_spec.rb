@@ -20,8 +20,18 @@ describe PetName do
       expect( pn.generate words: 10 ).to match /([a-z]*-){9}[a-z]*/
     end
 
-    it "works with all assigned args" do
+    it "should work with all assigned args" do
       expect( pn.generate separator: "🍣", words: 4 ).to match /([a-z]*🍣)*[a-z]/
+    end
+
+    it "should initialized with optional source" do
+      expect(
+        PetName::Generator.new(
+          adjectives: File.join(File.dirname(__FILE__), "test_adjectives.txt"),
+          adverbs:    File.join(File.dirname(__FILE__), "test_adverbs.txt"),
+          names:      File.join(File.dirname(__FILE__), "test_names.txt")
+        )
+      ).to be_instance_of( PetName::Generator )
     end
   end
 end
